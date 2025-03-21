@@ -79,7 +79,7 @@ Modify `config/template_2.json` with your API Gateway and Lambda configurations.
 - Defines API Gateway routes and associated Lambda function handlers.
 
 ## License
-This project is licensed under the **MIT License**.
+This project is licensed under the **GENERAL PUBLIC LICENSE**.
 
 ## Pre-requisite
 Before running the script, configure AWS CLI:
