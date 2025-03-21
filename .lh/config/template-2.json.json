@@ -1,0 +1,18 @@
+{
+    "sourceFile": "config/template-2.json",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1742570150219,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1742570150219,
+            "name": "Commit-0",
+            "content": "{\n  \"lambdapostfunc\": {\n    \"handler\": \"handler.functionone\",\n    \"events\": [\n      {\n        \"http\": {\n          \"path\": \"/api_path_one\",\n          \"method\": \"post\",\n          \"cors\": true\n        }\n      }\n    ]\n  },\n  \"lambdagetfunc\": {\n    \"handler\": \"handler.functiontwo\",\n    \"events\": [\n      {\n        \"http\": {\n          \"path\": \"/api_path_two\",\n          \"method\": \"get\",\n          \"cors\": false\n        }\n      }\n    ]\n  }\n}\n"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+  "lambdapostfunc": {
+    "handler": "handler.functionone",
+    "events": [
+      {
+        "http": {
+          "path": "/api_path_one",
+          "method": "post",
+          "cors": true
+        }
+      }
+    ]
+  },
+  "lambdagetfunc": {
+    "handler": "handler.functiontwo",
+    "events": [
+      {
+        "http": {
+          "path": "/api_path_two",
+          "method": "get",
+          "cors": false
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "aws-lambda-deployment",
+  "version": "1.0.0",
+  "description": "Automated AWS Lambda deployment using CloudFormation and API Gateway",
+  "main": "generate_cf.js",
+  "scripts": {
+    "generate-template": "node src/generate_cf.js",
+    "deploy": "bash scripts/pushToServer.sh"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1358.0",
+    "fs-extra": "^11.1.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "author": "Nikhil Dhiman",
+  "license": "MIT"
+}
